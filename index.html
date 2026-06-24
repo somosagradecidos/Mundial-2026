@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mundial 2026 · Resultados en vivo</title>
+<style>
+  :root{
+    --verde: #0a3d2e;
+    --verde-claro: #1d6b4e;
+    --pasto: #e8f3ea;
+    --crema: #faf6ee;
+    --naranja: #d65a2e;
+    --tinta: #1a1a16;
+    --gris: #6b6b62;
+    --linea: #d8d2c2;
+  }
+
+  *{box-sizing:border-box;}
+
+  body{
+    margin:0;
+    background:var(--crema);
+    color:var(--tinta);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  header{
+    background: var(--verde);
+    color: var(--crema);
+    padding: 2.4rem 1.5rem 2rem;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+  }
+
+  header::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background-image: repeating-linear-gradient(
+      135deg,
+      rgba(255,255,255,0.035) 0px,
+      rgba(255,255,255,0.035) 2px,
+      transparent 2px,
+      transparent 14px
+    );
+  }
+
+  header .marco-header{
+    position:relative;
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items:center;
+    gap: 1.2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  header .logo-lazaro{
+    justify-self:start;
+  }
+
+  header .logo-lazaro img{
+    height: 38px;
+    width: auto;
+    display:block;
+  }
+
+  header .cartel-fiesta{
+    justify-self:end;
+  }
+
+  header .cartel-fiesta img{
+    height: 96px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.28);
+    display:block;
+  }
+
+  header .titulo-central{
+    text-align:center;
+  }
+
+  @media (max-width: 700px){
+    header .marco-header{
+      grid-template-columns: 1fr;
+      justify-items:center;
+      gap: 0.9rem;
+    }
+    header .logo-lazaro{ justify-self:center; order:1; }
+    header .titulo-central{ order:2; }
+    header .cartel-fiesta{ justify-self:center; order:3; }
+    header .cartel-fiesta img{ height: 130px; }
+  }
+
+  header h1{
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    margin: 0 0 0.3rem;
+    letter-spacing: 0.01em;
+    position:relative;
+  }
+
+  header .sub{
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    font-size: 0.72rem;
+    color: #b9d8c6;
+    position:relative;
+  }
+
+  .marco{
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 4rem;
+  }
+
+  .estado-actualizacion{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:0.5rem;
+    font-family:'Courier New', monospace;
+    font-size: 0.75rem;
+    color: var(--gris);
+    border-bottom: 1px solid var(--linea);
+    padding-bottom: 0.9rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .punto-vivo{
+    display:inline-block;
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    background: var(--naranja);
+    margin-right:6px;
+    animation: parpadeo 1.6s ease-in-out infinite;
+  }
+
+  @keyframes parpadeo{
+    0%,100%{opacity:1;}
+    50%{opacity:0.25;}
+  }
+
+  .filtros{
+    display:flex;
+    gap:0.5rem;
+    flex-wrap:wrap;
+    margin-bottom:1.8rem;
+  }
+
+  .filtros button{
+    font-family: 'Courier New', monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    background: transparent;
+    border: 1px solid var(--linea);
+    color: var(--gris);
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    cursor:pointer;
+    transition: all 0.15s ease;
+  }
+
+  .filtros button:hover{
+    border-color: var(--verde-claro);
+    color: var(--verde-claro);
+  }
+
+  .filtros button.activo{
+    background: var(--verde);
+    border-color: var(--verde);
+    color: var(--crema);
+  }
+
+  .jornada-titulo{
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    color: var(--verde-claro);
+    margin: 2.2rem 0 0.8rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px dashed var(--linea);
+  }
+
+  .partido{
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items:center;
+    gap: 0.8rem;
+    padding: 1.1rem 0.4rem;
+    border-bottom: 1px solid var(--linea);
+  }
+
+  .equipo{
+    display:flex;
+    align-items:center;
+    gap:0.6rem;
+    font-size: 1rem;
+  }
+
+  .equipo.visitante{
+    justify-content:flex-end;
+    text-align:right;
+  }
+
+  .equipo img{
+    width:24px;
+    height:24px;
+    object-fit:contain;
+    flex-shrink:0;
+  }
+
+  .equipo.visitante img{
+    order:2;
+  }
+
+  .marcador-caja{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    min-width: 84px;
+  }
+
+  .marcador{
+    font-family: Georgia, serif;
+    font-weight:700;
+    font-size: 1.4rem;
+    letter-spacing: 0.05em;
+    color: var(--tinta);
+    white-space:nowrap;
+  }
+
+  .marcador .pendiente{
+    font-family:'Courier New', monospace;
+    font-weight:400;
+    font-size: 0.85rem;
+    color: var(--gris);
+  }
+
+  .etiqueta-estado{
+    font-family:'Courier New', monospace;
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: 0.25rem;
+    padding: 0.12rem 0.5rem;
+    border-radius: 999px;
+  }
+
+  .etiqueta-estado.finalizado{ color: var(--gris); }
+  .etiqueta-estado.en-vivo{ color: var(--naranja); background: rgba(214,90,46,0.1); }
+  .etiqueta-estado.medio-tiempo{ color: var(--naranja); background: rgba(214,90,46,0.1); }
+  .etiqueta-estado.programado{ color: var(--verde-claro); }
+
+  .hora-programada{
+    font-family:'Courier New', monospace;
+    font-size: 0.78rem;
+    color: var(--gris);
+  }
+
+  .partido.ganador-local .equipo.local,
+  .partido.ganador-visitante .equipo.visitante{
+    font-weight: 700;
+  }
+
+  .vacio{
+    text-align:center;
+    color: var(--gris);
+    font-family:'Courier New', monospace;
+    font-size: 0.85rem;
+    padding: 3rem 1rem;
+  }
+
+  footer{
+    text-align:center;
+    font-family:'Courier New', monospace;
+    font-size: 0.68rem;
+    color: var(--gris);
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  footer a{ color: var(--verde-claro); text-decoration:none; }
+
+  @media (max-width: 480px){
+    .partido{ grid-template-columns: 1fr auto 1fr; gap: 0.4rem; }
+    .equipo{ font-size: 0.85rem; }
+    .equipo img{ width:20px; height:20px; }
+    .marcador-caja{ min-width: 64px; }
+    .marcador{ font-size: 1.15rem; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .punto-vivo{ animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="marco-header">
+    <div class="logo-lazaro">
+      <img src="img/logo-lazaro.png" alt="Fundación Lázaro" />
+    </div>
+    <div class="titulo-central">
+      <h1>⚽ Mundial 2026</h1>
+      <div class="sub">México · Estados Unidos · Canadá</div>
+    </div>
+    <div class="cartel-fiesta">
+      <img src="img/cartel-fiesta-futbol.jpg" alt="La Fiesta del Fútbol Lázaro" />
+    </div>
+  </div>
+</header>
+
+<div class="marco">
+
+  <div class="estado-actualizacion">
+    <span><span class="punto-vivo"></span>Actualizado: <span id="hora-actualizacion">cargando…</span></span>
+    <span id="conteo-partidos"></span>
+  </div>
+
+  <div class="filtros" id="filtros">
+    <button data-filtro="todos" class="activo">Todos</button>
+    <button data-filtro="hoy">Hoy</button>
+    <button data-filtro="en-vivo">En vivo</button>
+    <button data-filtro="finalizados">Finalizados</button>
+    <button data-filtro="programados">Por jugar</button>
+  </div>
+
+  <div id="contenedor-partidos">
+    <div class="vacio">Cargando partidos…</div>
+  </div>
+
+</div>
+
+<footer>
+  Datos: football-data.org · Página propia para Fundación Lázaro
+</footer>
+
+<script>
+  // ---------------------------------------------------------------
+  // CONFIG: cambia esto por la URL "raw" de tu archivo resultados.json
+  // una vez que esté en tu repositorio de GitHub. Ejemplo:
+  // https://raw.githubusercontent.com/TU-USUARIO/TU-REPO/main/resultados.json
+  // ---------------------------------------------------------------
+  const URL_RESULTADOS = "resultados.json";
+
+  const contenedor = document.getElementById("contenedor-partidos");
+  const horaActualizacion = document.getElementById("hora-actualizacion");
+  const conteoPartidos = document.getElementById("conteo-partidos");
+  const botonesFiltro = document.querySelectorAll("#filtros button");
+
+  let partidosGlobal = [];
+  let filtroActivo = "todos";
+
+  function formatearHora(fechaUtc){
+    if(!fechaUtc) return "";
+    const d = new Date(fechaUtc);
+    return d.toLocaleString("es-MX", {
+      day: "2-digit", month: "short",
+      hour: "2-digit", minute: "2-digit"
+    });
+  }
+
+  function claseEstado(estadoRaw){
+    if(estadoRaw === "IN_PLAY") return "en-vivo";
+    if(estadoRaw === "PAUSED") return "medio-tiempo";
+    if(estadoRaw === "FINISHED") return "finalizado";
+    return "programado";
+  }
+
+  function esHoy(fechaUtc){
+    if(!fechaUtc) return false;
+    const hoy = new Date();
+    const f = new Date(fechaUtc);
+    return hoy.toDateString() === f.toDateString();
+  }
+
+  function filtrar(partidos, filtro){
+    if(filtro === "todos") return partidos;
+    if(filtro === "hoy") return partidos.filter(p => esHoy(p.fecha_utc));
+    if(filtro === "en-vivo") return partidos.filter(p => p.estado_raw === "IN_PLAY" || p.estado_raw === "PAUSED");
+    if(filtro === "finalizados") return partidos.filter(p => p.estado_raw === "FINISHED");
+    if(filtro === "programados") return partidos.filter(p => p.estado_raw === "SCHEDULED" || p.estado_raw === "TIMED");
+    return partidos;
+  }
+
+  function renderEquipo(nombre, escudo, lado){
+    const img = escudo ? `<img src="${escudo}" alt="" loading="lazy" />` : "";
+    return `<div class="equipo ${lado}">${lado === 'local' ? (img + '<span>' + (nombre||'Por definir') + '</span>') : ('<span>' + (nombre||'Por definir') + '</span>' + img)}</div>`;
+  }
+
+  function renderMarcador(p){
+    const tieneMarcador = p.goles_local !== null && p.goles_local !== undefined;
+    const claseGanador = p.ganador === "HOME_TEAM" ? "ganador-local" : (p.ganador === "AWAY_TEAM" ? "ganador-visitante" : "");
+
+    let marcadorHtml;
+    if(tieneMarcador){
+      marcadorHtml = `<div class="marcador">${p.goles_local} – ${p.goles_visitante}</div>`;
+    } else {
+      marcadorHtml = `<div class="marcador pendiente">${formatearHora(p.fecha_utc)}</div>`;
+    }
+
+    const etiqueta = p.estado || "";
+    const html = `
+      <div class="marcador-caja">
+        ${marcadorHtml}
+        <span class="etiqueta-estado ${claseEstado(p.estado_raw)}">${etiqueta}</span>
+      </div>
+    `;
+    return { html, claseGanador };
+  }
+
+  function render(){
+    const partidos = filtrar(partidosGlobal, filtroActivo);
+
+    if(partidos.length === 0){
+      contenedor.innerHTML = `<div class="vacio">No hay partidos en esta categoría todavía.</div>`;
+      return;
+    }
+
+    // Agrupar por fase/jornada para que se lea como un calendario real
+    const grupos = {};
+    partidos.forEach(p => {
+      const clave = p.fase || "Mundial 2026";
+      if(!grupos[clave]) grupos[clave] = [];
+      grupos[clave].push(p);
+    });
+
+    let html = "";
+    Object.entries(grupos).forEach(([fase, lista]) => {
+      html += `<div class="jornada-titulo">${fase}</div>`;
+      lista.forEach(p => {
+        const { html: marcadorLimpio, claseGanador } = renderMarcador(p);
+
+        html += `
+          <div class="partido ${claseGanador}">
+            ${renderEquipo(p.equipo_local, p.equipo_local_bandera, "local")}
+            ${marcadorLimpio}
+            ${renderEquipo(p.equipo_visitante, p.equipo_visitante_bandera, "visitante")}
+          </div>
+        `;
+      });
+    });
+
+    contenedor.innerHTML = html;
+  }
+
+  async function cargarDatos(){
+    try{
+      const resp = await fetch(URL_RESULTADOS, { cache: "no-store" });
+      if(!resp.ok) throw new Error("No se pudo leer resultados.json");
+      const datos = await resp.json();
+
+      partidosGlobal = datos.partidos || [];
+      horaActualizacion.textContent = new Date(datos.actualizado_utc).toLocaleString("es-MX", {
+        day:"2-digit", month:"short", hour:"2-digit", minute:"2-digit"
+      });
+      conteoPartidos.textContent = `${datos.total_partidos} partidos`;
+
+      render();
+    }catch(err){
+      contenedor.innerHTML = `<div class="vacio">No se pudieron cargar los resultados. Intenta de nuevo en un momento.</div>`;
+      console.error(err);
+    }
+  }
+
+  botonesFiltro.forEach(btn => {
+    btn.addEventListener("click", () => {
+      botonesFiltro.forEach(b => b.classList.remove("activo"));
+      btn.classList.add("activo");
+      filtroActivo = btn.dataset.filtro;
+      render();
+    });
+  });
+
+  cargarDatos();
+  // Refresca la vista cada 5 minutos sin que el usuario recargue la página
+  setInterval(cargarDatos, 5 * 60 * 1000);
+</script>
+
+</body>
+</html>

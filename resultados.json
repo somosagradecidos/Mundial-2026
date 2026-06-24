@@ -1,0 +1,25 @@
+{
+  "actualizado_utc": "2026-06-23T00:00:00+00:00",
+  "torneo": "FIFA World Cup 2026",
+  "fuente": "football-data.org",
+  "total_partidos": 1,
+  "partidos": [
+    {
+      "id": 0,
+      "fecha_utc": "2026-06-11T19:00:00Z",
+      "fase": "Fase de grupos",
+      "grupo": "Grupo A",
+      "jornada": 1,
+      "estado": "Finalizado",
+      "estado_raw": "FINISHED",
+      "equipo_local": "México",
+      "equipo_local_bandera": null,
+      "equipo_visitante": "Sudáfrica",
+      "equipo_visitante_bandera": null,
+      "goles_local": 2,
+      "goles_visitante": 0,
+      "ganador": "HOME_TEAM",
+      "sede": "Estadio Azteca"
+    }
+  ]
+}
