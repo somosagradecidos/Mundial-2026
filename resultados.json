@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-06-27T21:45:05.343836+00:00",
+  "actualizado_utc": "2026-06-27T22:44:36.745978+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1139,8 +1139,8 @@
       "equipo_visitante": "England",
       "equipo_visitante_bandera": "https://crests.football-data.org/770.svg",
       "goles_local": 0,
-      "goles_visitante": 0,
-      "ganador": "DRAW",
+      "goles_visitante": 2,
+      "ganador": "AWAY_TEAM",
       "sede": null
     },
     {
@@ -1149,15 +1149,15 @@
       "fase": "GROUP_STAGE",
       "grupo": "GROUP_L",
       "jornada": 3,
-      "estado": "LIVE",
-      "estado_raw": "LIVE",
+      "estado": "En vivo",
+      "estado_raw": "IN_PLAY",
       "equipo_local": "Croatia",
       "equipo_local_bandera": "https://crests.football-data.org/799.svg",
       "equipo_visitante": "Ghana",
       "equipo_visitante_bandera": "https://crests.football-data.org/ghana.svg",
       "goles_local": 1,
-      "goles_visitante": 0,
-      "ganador": "HOME_TEAM",
+      "goles_visitante": 1,
+      "ganador": "DRAW",
       "sede": null
     },
     {
