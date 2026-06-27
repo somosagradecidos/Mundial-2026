@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-06-27T05:40:15.887740+00:00",
+  "actualizado_utc": "2026-06-27T08:15:52.714294+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1304,8 +1304,8 @@
       "jornada": null,
       "estado": "Programado",
       "estado_raw": "TIMED",
-      "equipo_local": null,
-      "equipo_local_bandera": null,
+      "equipo_local": "Ivory Coast",
+      "equipo_local_bandera": "https://crests.football-data.org/787.svg",
       "equipo_visitante": null,
       "equipo_visitante_bandera": null,
       "goles_local": null,
