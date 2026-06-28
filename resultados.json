@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-06-28T17:55:18.761570+00:00",
+  "actualizado_utc": "2026-06-28T19:10:16.876667+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1234,15 +1234,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "En vivo",
+      "estado_raw": "IN_PLAY",
       "equipo_local": "South Africa",
       "equipo_local_bandera": "https://crests.football-data.org/9396.svg",
       "equipo_visitante": "Canada",
       "equipo_visitante_bandera": "https://crests.football-data.org/canada.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
+      "ganador": "DRAW",
       "sede": null
     },
     {
