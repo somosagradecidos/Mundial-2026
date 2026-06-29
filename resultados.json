@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-06-29T19:51:02.492102+00:00",
+  "actualizado_utc": "2026-06-29T21:14:23.781201+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1268,15 +1268,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "En vivo",
+      "estado_raw": "IN_PLAY",
       "equipo_local": "Germany",
       "equipo_local_bandera": "https://crests.football-data.org/759.svg",
       "equipo_visitante": "Paraguay",
       "equipo_visitante_bandera": "https://crests.football-data.org/761.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
+      "ganador": "DRAW",
       "sede": null
     },
     {
