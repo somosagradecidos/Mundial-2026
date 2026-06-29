@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-06-29T15:21:03.145808+00:00",
+  "actualizado_utc": "2026-06-29T17:55:51.523499+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1251,15 +1251,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "Medio tiempo",
+      "estado_raw": "PAUSED",
       "equipo_local": "Brazil",
       "equipo_local_bandera": "https://crests.football-data.org/764.svg",
       "equipo_visitante": "Japan",
       "equipo_visitante_bandera": "https://crests.football-data.org/766.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 0,
+      "goles_visitante": 1,
+      "ganador": "AWAY_TEAM",
       "sede": null
     },
     {
