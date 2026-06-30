@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-06-30T01:34:16.658461+00:00",
+  "actualizado_utc": "2026-06-30T05:50:49.420225+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1285,15 +1285,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "En vivo",
-      "estado_raw": "IN_PLAY",
+      "estado": "Finalizado",
+      "estado_raw": "FINISHED",
       "equipo_local": "Netherlands",
       "equipo_local_bandera": "https://crests.football-data.org/8601.svg",
       "equipo_visitante": "Morocco",
       "equipo_visitante_bandera": "https://crests.football-data.org/morocco.svg",
-      "goles_local": 0,
-      "goles_visitante": 0,
-      "ganador": "DRAW",
+      "goles_local": 4,
+      "goles_visitante": 4,
+      "ganador": null,
       "sede": null
     },
     {
