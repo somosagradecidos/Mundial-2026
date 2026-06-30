@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-06-30T20:16:28.946924+00:00",
+  "actualizado_utc": "2026-06-30T21:48:55.091453+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1319,15 +1319,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "En vivo",
+      "estado_raw": "IN_PLAY",
       "equipo_local": "France",
       "equipo_local_bandera": "https://crests.football-data.org/773.svg",
       "equipo_visitante": "Sweden",
       "equipo_visitante_bandera": "https://crests.football-data.org/792.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
+      "ganador": "DRAW",
       "sede": null
     },
     {
