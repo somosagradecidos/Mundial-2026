@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-01T21:53:22.076880+00:00",
+  "actualizado_utc": "2026-07-01T23:00:47.099638+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1370,15 +1370,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "En vivo",
-      "estado_raw": "IN_PLAY",
+      "estado": "Finalizado",
+      "estado_raw": "FINISHED",
       "equipo_local": "Belgium",
       "equipo_local_bandera": "https://crests.football-data.org/805.svg",
       "equipo_visitante": "Senegal",
       "equipo_visitante_bandera": "https://crests.football-data.org/senegal.svg",
-      "goles_local": 1,
+      "goles_local": 3,
       "goles_visitante": 2,
-      "ganador": "AWAY_TEAM",
+      "ganador": "HOME_TEAM",
       "sede": null
     },
     {
