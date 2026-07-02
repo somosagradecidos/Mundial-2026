@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-02T20:47:05.893299+00:00",
+  "actualizado_utc": "2026-07-02T21:53:02.050633+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1404,13 +1404,13 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "En vivo",
-      "estado_raw": "IN_PLAY",
+      "estado": "Finalizado",
+      "estado_raw": "FINISHED",
       "equipo_local": "Spain",
       "equipo_local_bandera": "https://crests.football-data.org/760.svg",
       "equipo_visitante": "Austria",
       "equipo_visitante_bandera": "https://crests.football-data.org/816.svg",
-      "goles_local": 2,
+      "goles_local": 3,
       "goles_visitante": 0,
       "ganador": "HOME_TEAM",
       "sede": null
