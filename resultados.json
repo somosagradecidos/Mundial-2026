@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-01T23:00:47.099638+00:00",
+  "actualizado_utc": "2026-07-02T00:16:50.197397+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1387,15 +1387,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "En vivo",
+      "estado_raw": "IN_PLAY",
       "equipo_local": "United States",
       "equipo_local_bandera": "https://crests.football-data.org/usa.svg",
       "equipo_visitante": "Bosnia-Herzegovina",
       "equipo_visitante_bandera": "https://crests.football-data.org/bosnia.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
+      "ganador": "DRAW",
       "sede": null
     },
     {
