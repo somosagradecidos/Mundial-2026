@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-02T23:56:05.848193+00:00",
+  "actualizado_utc": "2026-07-03T02:36:18.984226+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1421,15 +1421,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "Medio tiempo",
-      "estado_raw": "PAUSED",
+      "estado": "Finalizado",
+      "estado_raw": "FINISHED",
       "equipo_local": "Portugal",
       "equipo_local_bandera": "https://crests.football-data.org/765.svg",
       "equipo_visitante": "Croatia",
       "equipo_visitante_bandera": "https://crests.football-data.org/799.svg",
-      "goles_local": 0,
-      "goles_visitante": 0,
-      "ganador": "DRAW",
+      "goles_local": 2,
+      "goles_visitante": 1,
+      "ganador": "HOME_TEAM",
       "sede": null
     },
     {
