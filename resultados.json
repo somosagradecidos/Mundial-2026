@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-03T02:36:18.984226+00:00",
+  "actualizado_utc": "2026-07-03T06:16:49.172028+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1438,15 +1438,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "Finalizado",
+      "estado_raw": "FINISHED",
       "equipo_local": "Switzerland",
       "equipo_local_bandera": "https://crests.football-data.org/788.svg",
       "equipo_visitante": "Algeria",
       "equipo_visitante_bandera": "https://crests.football-data.org/algeria.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 2,
+      "goles_visitante": 0,
+      "ganador": "HOME_TEAM",
       "sede": null
     },
     {
