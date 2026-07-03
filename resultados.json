@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-03T22:02:34.059704+00:00",
+  "actualizado_utc": "2026-07-03T23:14:17.383283+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1472,15 +1472,15 @@
       "fase": "LAST_32",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "En vivo",
+      "estado_raw": "IN_PLAY",
       "equipo_local": "Argentina",
       "equipo_local_bandera": "https://crests.football-data.org/762.png",
       "equipo_visitante": "Cape Verde Islands",
       "equipo_visitante_bandera": "https://crests.football-data.org/cape_verde.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 1,
+      "goles_visitante": 0,
+      "ganador": "HOME_TEAM",
       "sede": null
     },
     {
