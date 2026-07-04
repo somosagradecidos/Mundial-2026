@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-03T23:14:17.383283+00:00",
+  "actualizado_utc": "2026-07-04T00:17:54.560946+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1478,8 +1478,8 @@
       "equipo_local_bandera": "https://crests.football-data.org/762.png",
       "equipo_visitante": "Cape Verde Islands",
       "equipo_visitante_bandera": "https://crests.football-data.org/cape_verde.svg",
-      "goles_local": 1,
-      "goles_visitante": 0,
+      "goles_local": 2,
+      "goles_visitante": 1,
       "ganador": "HOME_TEAM",
       "sede": null
     },
