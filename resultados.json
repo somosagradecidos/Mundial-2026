@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-04T17:29:42.355819+00:00",
+  "actualizado_utc": "2026-07-04T18:33:38.823905+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1513,8 +1513,8 @@
       "equipo_visitante": "Morocco",
       "equipo_visitante_bandera": "https://crests.football-data.org/morocco.svg",
       "goles_local": 0,
-      "goles_visitante": 0,
-      "ganador": "DRAW",
+      "goles_visitante": 1,
+      "ganador": "AWAY_TEAM",
       "sede": null
     },
     {
