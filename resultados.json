@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-05T20:57:12.595826+00:00",
+  "actualizado_utc": "2026-07-05T22:00:56.711922+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1540,15 +1540,15 @@
       "fase": "LAST_16",
       "grupo": null,
       "jornada": null,
-      "estado": "Medio tiempo",
-      "estado_raw": "PAUSED",
+      "estado": "LIVE",
+      "estado_raw": "LIVE",
       "equipo_local": "Brazil",
       "equipo_local_bandera": "https://crests.football-data.org/764.svg",
       "equipo_visitante": "Norway",
       "equipo_visitante_bandera": "https://crests.football-data.org/813.svg",
       "goles_local": 0,
-      "goles_visitante": 0,
-      "ganador": "DRAW",
+      "goles_visitante": 2,
+      "ganador": "AWAY_TEAM",
       "sede": null
     },
     {
