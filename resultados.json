@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-05T23:10:33.791771+00:00",
+  "actualizado_utc": "2026-07-06T00:15:32.003690+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1553,12 +1553,12 @@
     },
     {
       "id": 537378,
-      "fecha_utc": "2026-07-06T00:00:00Z",
+      "fecha_utc": "2026-07-06T01:00:00Z",
       "fase": "LAST_16",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "2026-07-06 01:00:00Z",
+      "estado_raw": "2026-07-06 01:00:00Z",
       "equipo_local": "Mexico",
       "equipo_local_bandera": "https://crests.football-data.org/769.svg",
       "equipo_visitante": "England",
