@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-06T00:15:32.003690+00:00",
+  "actualizado_utc": "2026-07-06T04:41:57.419156+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1557,15 +1557,15 @@
       "fase": "LAST_16",
       "grupo": null,
       "jornada": null,
-      "estado": "2026-07-06 01:00:00Z",
-      "estado_raw": "2026-07-06 01:00:00Z",
+      "estado": "Finalizado",
+      "estado_raw": "FINISHED",
       "equipo_local": "Mexico",
       "equipo_local_bandera": "https://crests.football-data.org/769.svg",
       "equipo_visitante": "England",
       "equipo_visitante_bandera": "https://crests.football-data.org/770.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 2,
+      "goles_visitante": 3,
+      "ganador": "AWAY_TEAM",
       "sede": null
     },
     {
