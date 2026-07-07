@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-07T15:15:52.165790+00:00",
+  "actualizado_utc": "2026-07-07T17:27:14.583626+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1608,15 +1608,15 @@
       "fase": "LAST_16",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "En vivo",
+      "estado_raw": "IN_PLAY",
       "equipo_local": "Argentina",
       "equipo_local_bandera": "https://crests.football-data.org/762.png",
       "equipo_visitante": "Egypt",
       "equipo_visitante_bandera": "https://crests.football-data.org/825.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 0,
+      "goles_visitante": 2,
+      "ganador": "AWAY_TEAM",
       "sede": null
     },
     {
