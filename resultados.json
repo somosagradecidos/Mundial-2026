@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-07T22:16:46.214550+00:00",
+  "actualizado_utc": "2026-07-07T23:16:07.119373+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1631,9 +1631,9 @@
       "equipo_local_bandera": "https://crests.football-data.org/788.svg",
       "equipo_visitante": "Colombia",
       "equipo_visitante_bandera": "https://crests.football-data.org/818.svg",
-      "goles_local": 0,
-      "goles_visitante": 0,
-      "ganador": "DRAW",
+      "goles_local": 4,
+      "goles_visitante": 3,
+      "ganador": null,
       "sede": null
     },
     {
