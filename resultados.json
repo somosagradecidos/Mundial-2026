@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-06T23:53:07.332855+00:00",
+  "actualizado_utc": "2026-07-07T01:51:46.598448+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1591,15 +1591,15 @@
       "fase": "LAST_16",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "En vivo",
+      "estado_raw": "IN_PLAY",
       "equipo_local": "United States",
       "equipo_local_bandera": "https://crests.football-data.org/usa.svg",
       "equipo_visitante": "Belgium",
       "equipo_visitante_bandera": "https://crests.football-data.org/805.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 1,
+      "goles_visitante": 3,
+      "ganador": "AWAY_TEAM",
       "sede": null
     },
     {
