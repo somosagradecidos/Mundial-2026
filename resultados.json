@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-07T19:20:21.238976+00:00",
+  "actualizado_utc": "2026-07-07T20:59:52.614047+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1625,15 +1625,15 @@
       "fase": "LAST_16",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "Medio tiempo",
+      "estado_raw": "PAUSED",
       "equipo_local": "Switzerland",
       "equipo_local_bandera": "https://crests.football-data.org/788.svg",
       "equipo_visitante": "Colombia",
       "equipo_visitante_bandera": "https://crests.football-data.org/818.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 0,
+      "goles_visitante": 0,
+      "ganador": "DRAW",
       "sede": null
     },
     {
