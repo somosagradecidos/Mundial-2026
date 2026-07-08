@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-08T03:45:44.470710+00:00",
+  "actualizado_utc": "2026-07-08T06:16:48.695633+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1633,7 +1633,7 @@
       "equipo_visitante_bandera": "https://crests.football-data.org/818.svg",
       "goles_local": 4,
       "goles_visitante": 3,
-      "ganador": null,
+      "ganador": "HOME_TEAM",
       "sede": null
     },
     {
@@ -1695,10 +1695,10 @@
       "jornada": null,
       "estado": "Programado",
       "estado_raw": "TIMED",
-      "equipo_local": null,
-      "equipo_local_bandera": null,
-      "equipo_visitante": null,
-      "equipo_visitante_bandera": null,
+      "equipo_local": "Argentina",
+      "equipo_local_bandera": "https://crests.football-data.org/762.png",
+      "equipo_visitante": "Switzerland",
+      "equipo_visitante_bandera": "https://crests.football-data.org/788.svg",
       "goles_local": null,
       "goles_visitante": null,
       "ganador": null,
