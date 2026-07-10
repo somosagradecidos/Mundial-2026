@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-10T18:52:28.065915+00:00",
+  "actualizado_utc": "2026-07-10T20:09:26.622282+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1659,15 +1659,15 @@
       "fase": "QUARTER_FINALS",
       "grupo": null,
       "jornada": null,
-      "estado": "Programado",
-      "estado_raw": "TIMED",
+      "estado": "Medio tiempo",
+      "estado_raw": "PAUSED",
       "equipo_local": "Spain",
       "equipo_local_bandera": "https://crests.football-data.org/760.svg",
       "equipo_visitante": "Belgium",
       "equipo_visitante_bandera": "https://crests.football-data.org/805.svg",
-      "goles_local": null,
-      "goles_visitante": null,
-      "ganador": null,
+      "goles_local": 1,
+      "goles_visitante": 1,
+      "ganador": "DRAW",
       "sede": null
     },
     {
