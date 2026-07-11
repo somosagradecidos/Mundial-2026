@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-11T22:06:02.376032+00:00",
+  "actualizado_utc": "2026-07-11T23:05:00.248447+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1676,15 +1676,15 @@
       "fase": "QUARTER_FINALS",
       "grupo": null,
       "jornada": null,
-      "estado": "Medio tiempo",
-      "estado_raw": "PAUSED",
+      "estado": "En vivo",
+      "estado_raw": "IN_PLAY",
       "equipo_local": "Norway",
       "equipo_local_bandera": "https://crests.football-data.org/813.svg",
       "equipo_visitante": "England",
       "equipo_visitante_bandera": "https://crests.football-data.org/770.svg",
-      "goles_local": 1,
+      "goles_local": 2,
       "goles_visitante": 1,
-      "ganador": "DRAW",
+      "ganador": "HOME_TEAM",
       "sede": null
     },
     {
