@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-11T04:15:53.025473+00:00",
+  "actualizado_utc": "2026-07-11T06:28:07.192525+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1714,8 +1714,8 @@
       "estado_raw": "TIMED",
       "equipo_local": "France",
       "equipo_local_bandera": "https://crests.football-data.org/773.svg",
-      "equipo_visitante": null,
-      "equipo_visitante_bandera": null,
+      "equipo_visitante": "Spain",
+      "equipo_visitante_bandera": "https://crests.football-data.org/760.svg",
       "goles_local": null,
       "goles_visitante": null,
       "ganador": null,
