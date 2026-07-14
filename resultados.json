@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-14T19:39:39.957386+00:00",
+  "actualizado_utc": "2026-07-14T20:42:48.644401+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1717,7 +1717,7 @@
       "equipo_visitante": "Spain",
       "equipo_visitante_bandera": "https://crests.football-data.org/760.svg",
       "goles_local": 0,
-      "goles_visitante": 1,
+      "goles_visitante": 2,
       "ganador": "AWAY_TEAM",
       "sede": null
     },
