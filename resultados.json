@@ -1,5 +1,5 @@
 {
-  "actualizado_utc": "2026-07-19T19:28:53.399875+00:00",
+  "actualizado_utc": "2026-07-19T20:23:49.671359+00:00",
   "torneo": "FIFA World Cup 2026",
   "fuente": "football-data.org",
   "total_partidos": 104,
@@ -1761,8 +1761,8 @@
       "fase": "FINAL",
       "grupo": null,
       "jornada": null,
-      "estado": "LIVE",
-      "estado_raw": "LIVE",
+      "estado": "Medio tiempo",
+      "estado_raw": "PAUSED",
       "equipo_local": "Spain",
       "equipo_local_bandera": "https://crests.football-data.org/760.svg",
       "equipo_visitante": "Argentina",
